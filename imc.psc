@@ -2,7 +2,7 @@ Algoritmo imc
 	Definir peso, altura, indice Como Real
 	Escribir "Ingrese su peso y altura en metros"
 	leer peso, altura
-	indice=redon(peso / (altura*altura))
+	indice=redon(peso / (altura*altura)*10)/10
 	si indice < 18.5 Entonces
 		escribir "IMC: ", indice " Bajo Peso"
 	SiNo
