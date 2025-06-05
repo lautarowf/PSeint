@@ -1,12 +1,19 @@
 Algoritmo promedio_maximo_minimo
 	Definir num, numMin, numMax, contador, suma Como Entero
+suma = 0
+contador= 0
 	Escribir "Ingrese un valor: "
-	suma = 0 
 		leer num	
-		suma = suma + num
+si num <> 0 entonces
+numMax = num
+numMin = num
+contador = contador + 1
+   suma = suma + num
 mientras num<>0 hacer
+Escribir "Ingrese un valor: "
+		leer num	
 		si num <> 0 Entonces
-			contador = contador + 1
+			
 		FinSi
 		si num > numMax Entonces
 			numMax=num
