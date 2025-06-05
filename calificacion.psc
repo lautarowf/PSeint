@@ -1,4 +1,4 @@
-algoritmo 
+algoritmo calificacion
 definir alumno como cadena
 definir practica, problema, teoria como entero 
 escribir "Ingrese el nombre del alumno: "
