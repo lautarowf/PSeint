@@ -13,7 +13,8 @@ mientras num<>0 hacer
 Escribir "Ingrese un valor: "
 		leer num	
 		si num <> 0 Entonces
-			
+			contador = contador + 1
+   suma = suma + num
 		FinSi
 		si num > numMax Entonces
 			numMax=num
