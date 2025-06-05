@@ -15,5 +15,8 @@ nota = practica*0.10 +problema*0.50 + teoria*0.40
 escribir nota
 sino 
 escribir "Error"
+finSi
+escribir "Ingrese el nombre del alumno: "
+leer alumno
 finMientras 
 FinAlgoritmo 
