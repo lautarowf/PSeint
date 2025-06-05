@@ -16,3 +16,4 @@ escribir nota
 sino 
 escribir "Error"
 finMientras 
+FinAlgoritmo 
