@@ -1,4 +1,4 @@
-algoritmo inicio
+algoritmo 
 definir alumno como cadena
 definir practica, problema, teoria como entero 
 escribir "Ingrese el nombre del alumno: "
