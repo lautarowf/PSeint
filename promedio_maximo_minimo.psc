@@ -15,13 +15,13 @@ Escribir "Ingrese un valor: "
 		si num <> 0 Entonces
 			contador = contador + 1
    suma = suma + num
-		FinSi
 		si num > numMax Entonces
 			numMax=num
 		FinSi
 		si num < numMin Entonces
 			numMin=num
 		FinSi
+FinSi
 	FinMientras
 	Escribir numMax
 	Escribir numMin
