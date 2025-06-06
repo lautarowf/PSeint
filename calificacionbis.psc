@@ -3,6 +3,7 @@ definir alumno como cadena
 definir practica, problema, teoria, nota como real
 repetir escribir "Ingrese el nombre del alumno: "
 leer alumno
+si alumno <> "" entonces
 escribir "Ingrese la nota práctica: "
 leer practica
 escribir "Ingrese la nota problema: "
