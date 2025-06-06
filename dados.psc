@@ -7,7 +7,7 @@ probabilidad = 1/6
 probabilidadFinal = 1
 contador = 1
 mientras contador <= dados hacer
- probabilidadFinal= probabilidad*dados
+ probabilidadFinal= probabilidadFinal*probabilidad 
  contador= contador + 1
 finMientras
 escribir probabilidadFinal
