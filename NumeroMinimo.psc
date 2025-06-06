@@ -11,5 +11,6 @@ mientras num <> 0 Hacer
     numMin = num
    finSi
   finSi
+finMientras 
 	Escribir numMin
 FinAlgoritmo
