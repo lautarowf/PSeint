@@ -1,9 +1,8 @@
 algoritmo calificacion
 definir alumno como cadena
 definir practica, problema, teoria, nota como real
-escribir "Ingrese el nombre del alumno: "
+repetir escribir "Ingrese el nombre del alumno: "
 leer alumno
-repetir
 escribir "Ingrese la nota práctica: "
 leer practica
 escribir "Ingrese la nota problema: "
@@ -16,7 +15,5 @@ si (practica <=10 Y practica >=0) Y (problema <=10 Y problema >=0) Y (teoria <=1
 sino 
  escribir "Error"
 finSi
-escribir "Ingrese el nombre del alumno: "
-leer alumno
-finMientras 
+hasta que alumno = ""
 FinAlgoritmo 
