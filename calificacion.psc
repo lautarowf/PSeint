@@ -1,6 +1,6 @@
 algoritmo calificacion
 definir alumno como cadena
-definir practica, problema, teoria como entero 
+definir practica, problema, teoria, nota como real
 escribir "Ingrese el nombre del alumno: "
 leer alumno
 mientras alumno <> "" hacer
