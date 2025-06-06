@@ -10,5 +10,6 @@ Mientras num <> 0 Hacer
 			numMax=num
 		FinSi
  FinSi
+finMientras 
 Escribir numMax
 FinAlgoritmo
