@@ -10,11 +10,12 @@ escribir "Ingrese la nota problema: "
 leer problema 
 escribir "Ingrese la nota teoria: "
 leer teoria
-si (practica <=10 Y practica >=0) Y (problema <=10 Y problema >=0) Y (teoria <=10 Y teoria >=0) entonces 
- nota = practica*0.10 + problema*0.50 + teoria*0.40
- escribir nota
-sino 
- escribir "Error"
+ si (practica <=10 Y practica >=0) Y (problema <=10 Y problema >=0) Y (teoria <=10 Y teoria >=0) entonces 
+  nota = practica*0.10 + problema*0.50 + teoria*0.40
+  escribir nota
+ sino 
+  escribir "Error"
+ finSi
 finSi
 hasta que alumno = ""
 FinAlgoritmo 
