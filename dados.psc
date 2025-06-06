@@ -8,3 +8,5 @@ mientras contador <= veces hacer
  probabilidad= probabilidad*veces
  contador= contador + 1
 finMientras
+escribir probabilidad 
+FinAlgoritmo 
